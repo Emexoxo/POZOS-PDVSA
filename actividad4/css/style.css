@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #d11217;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-left:5px;
+    margin-right:5px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: wheat;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+.cantidad {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.datos {
+    text-align: center;
+    font-size: 25px;
+}
+
+.boton {
+    width: 500px;
+    height: 40px;
+}
+
+table {
+    align-self: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid darkred;
+    background-color: wheat;
+    color: white;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+td {
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.petro {
+    background-color: darkred;
+    border: 1px solid;
+}
+
+.darkweat {
+    background-color: wheat;
+    color: black;
+}
